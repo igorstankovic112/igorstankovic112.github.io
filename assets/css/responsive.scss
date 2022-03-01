@@ -375,4 +375,15 @@ $watermelon: #FF3B3F;
           }
         }
       }
+    footer{
+        height: auto;
+        flex-direction: column;
+        p{
+            font-size: 15px;
+        }
+        i{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
 }

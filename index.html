@@ -10,6 +10,7 @@
 		<link rel = "stylesheet" type = "text/css" href = "assets/css/responsive.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/24531c76d5.js" crossorigin="anonymous"></script>
         <title>Igor Stanković | Portfolio</title>
@@ -46,9 +47,13 @@
                 </nav>
             </div>
         </header>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <div class="prvi">
             <div class="ime">
-                <h1>
+                <h1 data-aos="fade-up">
                     I am Igor Stanković
                 </h1>
                 <h2>
@@ -61,10 +66,10 @@
         </div>
         <div id="about">
             <div class="drugi">
-                <h1 name="about">
+                <h1 data-aos="fade-up" name="about">
                     About me
                 </h1>
-                <div class="blok">
+                <div data-aos="flip-up" class="blok">
                     <div class="tekst">
                         <p>
                             My name is Igor Stanković(112/21), I am 19 years old. I'm currently studying at ICT Coledge and I live in Belgrade. I graduated from ETS "Nikola Tesla" and then I wanted to countinue studying IT, so here I am. I've had few projects, and I'm always making more and everyday I'm learning something new.
@@ -78,13 +83,13 @@
         </div>
         <div id="skills">
             <div class="treci">
-                <h1 name="skills">
+                <h1 data-aos="fade-up" name="skills">
                     SKILLS
                 </h1>
                 <div class="html">
                     
                     <div>
-                        <figure>
+                        <figure data-aos="fade-up">
                             <img src="assets/img/html.png">
                             <figcaption>
                                 HTML
@@ -92,15 +97,15 @@
                         </figure>
                     </div>
                     <div>
-                        <figure>
+                        <figure data-aos="fade-down">
                             <img src="assets/img/css.png">
                             <figcaption>
                                 css
                             </figcaption>
-                        </figure>
+                        </figure >
                     </div>
                     <div>
-                        <figure>
+                        <figure data-aos="fade-up">
                             <img src="assets/img/javascript.png">
                             <figcaption>
                                 javascript
@@ -108,7 +113,7 @@
                         </figure>
                     </div>
                     <div>
-                        <figure>
+                        <figure data-aos="fade-down">
                             <img src="assets/img/sass.png">
                             <figcaption>
                                 SASS
@@ -120,12 +125,12 @@
         </div>
         <div id="projects">
             <div class="cetvrti">
-                <h1>
+                <h1 data-aos="fade-up">
                     Projects
                 </h1>
                 <div class="sajtovi">
                     <div class="sajt">
-                        <img src="assets/img/sajt1.jpg">
+                        <img data-aos="fade-right" src="assets/img/sajt1.jpg">
                         <div class="overlay">
                             <p>
                                 Responsive site that uses HTML 5, CSS3, SASS
@@ -140,7 +145,7 @@
                         </div>
                     </div>
                     <div class="sajt">
-                        <img src="assets/img/sajt2.jpg"></a>
+                        <img data-aos="fade-left" src="assets/img/sajt2.jpg"></a>
                         <div class="overlay">
                                 <p>
                                     Responsive site that uses HTML 5, CSS3, SASS
@@ -159,7 +164,7 @@
         </div>
         <div id="contact">
             <div class="peti">
-                <h1>
+                <h1 data-aos="fade-up">
                     CONTACT
                 </h1>
                 <div class="mail">
